@@ -257,3 +257,35 @@ body{
     font-size:32px;
   }
 }
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 220px;
+  }
+}
