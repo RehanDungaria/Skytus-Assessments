@@ -1,0 +1,76 @@
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.dashboard-container {
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-title {
+  margin-bottom: 20px;
+  color: #1a1f36;
+}
+
+.clear-btn {
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  background-color: #656a8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.clear-btn:hover { background-color: #4a4e6d; }
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #6b7280;
+  border: 2px dashed #cbd5e1;
+  border-radius: 8px;
+  background-color: #f8fafc;
+}
+
+/* Dynamic User Card Styling */
+.user-card {
+  padding: 18px;
+  margin: 14px 0;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.active-card {
+  background-color: #e6f4ea;
+  border-left: 5px solid #34a853;
+}
+
+.inactive-card {
+  background-color: #f9f9f9;
+  border-left: 5px solid #9aa0a6;
+}
+
+.status-badge {
+  font-weight: bold;
+}
+
+.toggle-btn {
+  margin-top: 14px;
+  padding: 8px 14px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #1a73e8;
+}
+
+.active-card .toggle-btn { background-color: #d93025; }
