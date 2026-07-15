@@ -1,0 +1,1 @@
+export const LOGIN_ENDPOINT = process.env.REACT_APP_LOGIN_ENDPOINT || "/auth/login";
